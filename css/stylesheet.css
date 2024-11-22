@@ -1,0 +1,91 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  background-image: url("../img/um\ ambiente\ confortante\ com\ tons\ de\ azul\ e\ verde\ marinho\ para\ o\ fundo\ de\ um\ site\ de\ cadastro\ de\ um\ consultório\ dentário.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  align-items: center;
+  background-position: center center;
+}
+.container h1 {
+  color: #ffff;
+}
+a {
+  text-decoration: none;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: transparent;
+  height: 25rem;
+  width: 350px;
+  border-radius: 10%;
+  border:1px solid rgb(117, 115, 115);
+  backdrop-filter: blur(14px);
+}
+.input-forms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 10rem;
+  width: 100%;
+}
+
+.input-forms input {
+  border-radius: 100px;
+  margin: 2px 0 2px 0;
+  border: none;
+  outline: 0;
+  width: 80%;
+  height: 3rem;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.747);
+  border: 0.1px solid rgba(124, 122, 122, 0.888);
+  
+}
+.input-btn span {
+  color: rgb(233, 236, 239);
+}
+.input-btn {
+  display: flex;
+  height: 6rem;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.input-btn input {
+  border-radius: 100px;
+  border: none;
+  outline: 0;
+  width: 80%;
+  height: 3rem;
+  background-color: #56ece2;
+  text-align: center;
+  font-size: 1.4em;
+}
+.input-btn input:hover {
+  background-color: #69d7d296;
+  color: #ffff;
+  cursor: pointer;
+}
+
+.input-btn a {
+  color: #56c8c0;
+  font-size: 1.3rem;
+  
+}
+.input-btn a:hover {
+  color: #04ffe2;
+}

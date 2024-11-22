@@ -1,0 +1,33 @@
+
+.form-container-complemento{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: space-evenly;
+        background-color: #4b4949a0;
+        height:38rem;
+        width: 55rem;
+        border-radius: 10%;
+}
+
+
+.input-forms-complemento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30rem;
+    width: 100%;
+  }
+  
+  .input-forms-complemento input {
+    border-radius: 100px;
+    margin: 2px 0 2px 0;;
+    border: none;
+    outline: 0;
+    width: 80%;
+    height: 3rem;
+    text-align: center;
+  }
+  
